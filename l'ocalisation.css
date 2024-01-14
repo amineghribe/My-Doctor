@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(doctourimages/photo_2023-01-03_17-59-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header {
+    background-color:rgba(4, 5, 88, 0.986);
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo {
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.logo span{
+    background-color: #11acdb;
+	color: rgb(0, 0, 0);
+	border-radius: 8px;
+
+
+}
+.hala{
+    background-image: url(transparent);
+   
+}
+
+.card2{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px gray;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card2:hover{
+    transform: scale(1.2);
+}
+.map{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&key=YOUR_API_KEY');
+  }
+  .hala10{
+    background-color: gray;
+  }
+  section{
+    padding: 80px 20px;
+  }
